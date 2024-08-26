@@ -1,6 +1,9 @@
 # Soribwa
 
 ### 중증 청각장애인을 위한 소리 및 감정 분석 AI 서비스
+
+![소리봐](https://github.com/user-attachments/assets/22f5d7d7-b905-4f0b-bb85-d2ec3a6ba633)
+
 ---
 
 ## 프로젝트 소개
