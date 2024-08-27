@@ -16,12 +16,19 @@
 
 ![system-1](https://github.com/user-attachments/assets/877387f2-88f0-445d-ba19-0ec4387bc7a1)
 
-![main-2](https://github.com/user-attachments/assets/a134aeb6-9c4f-4677-8fb4-cd214d965ade)
-![sidebar-1](https://github.com/user-attachments/assets/98567efd-fcfb-4ed5-9082-f2072334240f)
-![announcement-1](https://github.com/user-attachments/assets/81fa8e8f-bf64-424f-8136-80c0185ce13e)
-![map-1](https://github.com/user-attachments/assets/5d1407f1-5940-41c6-b019-7ace5c09f2cc)
-![emotion-1](https://github.com/user-attachments/assets/64c1c00c-d998-455b-91a1-3aaed22c3642)
-![realtime-1](https://github.com/user-attachments/assets/7d0a2875-96c9-49b1-9dab-61d8a94b4e84)
+* 메인 페이지, 사이드 바, 공지사항
+<div>
+ <img src="https://github.com/user-attachments/assets/a134aeb6-9c4f-4677-8fb4-cd214d965ade">
+ <img src="https://github.com/user-attachments/assets/98567efd-fcfb-4ed5-9082-f2072334240f">
+ <img src="https://github.com/user-attachments/assets/81fa8e8f-bf64-424f-8136-80c0185ce13e">
+</div>
+
+* 실시간 소음 분석, STT & 감정분석, 소음 지도
+<div>
+ <img src="https://github.com/user-attachments/assets/7d0a2875-96c9-49b1-9dab-61d8a94b4e84">
+ <img src="https://github.com/user-attachments/assets/5d1407f1-5940-41c6-b019-7ace5c09f2cc">
+ <img src="https://github.com/user-attachments/assets/64c1c00c-d998-455b-91a1-3aaed22c3642">
+</div>
 
 * 로그인 및 회원가입
 <div>
