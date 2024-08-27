@@ -23,7 +23,7 @@
 ![emotion-1](https://github.com/user-attachments/assets/64c1c00c-d998-455b-91a1-3aaed22c3642)
 ![realtime-1](https://github.com/user-attachments/assets/7d0a2875-96c9-49b1-9dab-61d8a94b4e84)
 
-
+* 로그인 및 회원가입
 ![login-1](https://github.com/user-attachments/assets/ba70e24f-7d01-45e3-bfec-6110f2c710db)
 ![email-1](https://github.com/user-attachments/assets/694f256a-f752-4974-9738-47594176cdb1)
 
