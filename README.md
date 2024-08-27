@@ -14,7 +14,11 @@
 
 ---
 
-![system-1](https://github.com/user-attachments/assets/877387f2-88f0-445d-ba19-0ec4387bc7a1)
+* 시스템 구조도
+<div>
+ <img src="https://github.com/user-attachments/assets/877387f2-88f0-445d-ba19-0ec4387bc7a1">
+</div>
+<br>
 
 * 메인 페이지, 사이드 바, 공지사항
 <div>
@@ -22,6 +26,7 @@
  <img src="https://github.com/user-attachments/assets/98567efd-fcfb-4ed5-9082-f2072334240f">
  <img src="https://github.com/user-attachments/assets/81fa8e8f-bf64-424f-8136-80c0185ce13e">
 </div>
+<br>
 
 * 실시간 소음 분석, STT & 감정분석, 소음 지도
 <div>
@@ -29,13 +34,14 @@
  <img src="https://github.com/user-attachments/assets/5d1407f1-5940-41c6-b019-7ace5c09f2cc">
  <img src="https://github.com/user-attachments/assets/64c1c00c-d998-455b-91a1-3aaed22c3642">
 </div>
+<br>
 
 * 로그인 및 회원가입
 <div>
  <img src="https://github.com/user-attachments/assets/ba70e24f-7d01-45e3-bfec-6110f2c710db">
  <img src="https://github.com/user-attachments/assets/694f256a-f752-4974-9738-47594176cdb1">
 </div>
-
+<br>
 ---
 
 ## 개발 기간
