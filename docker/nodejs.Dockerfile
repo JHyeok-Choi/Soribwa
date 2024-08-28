@@ -5,7 +5,7 @@ RUN apt-get -y update \
     && apt-get -y update
 
 WORKDIR /docker
-COPY nodejs /docker/nodejs
+COPY ../nodejs /docker/nodejs
 WORKDIR /docker/nodejs
 RUN npm install
 RUN npm install -g nodemon
