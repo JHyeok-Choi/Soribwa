@@ -1,7 +1,7 @@
 services:  # services 아래 서비스들을 명시
   nodejs:  # nodejs라는 이름의 서비스를 정의
     build: 
-      dockerfile: nodejs.Dockerfile # 빌드 옵션  # node.Dockerfile 을 사용하여 build.
+      dockerfile: nodejs.Dockerfile # 빌드 옵션  # nodejs.Dockerfile 을 사용하여 build.
     ports:
        - 8400:8400  # <로컬에서 열 포트이름>:<docker container에서 열어 놓은 port 이름>
     env_file: ../.env  # .env 파일 위치
