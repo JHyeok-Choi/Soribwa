@@ -5,9 +5,11 @@ RUN apt-get -y update \
     && apt-get -y update
 
 WORKDIR /docker
-COPY ../react /docker/react
+COPY react /docker/react
 WORKDIR /docker/react
 RUN npm install
 RUN npm install -g nodemon
+
+EXPOSE 3400
 
 CMD npm start

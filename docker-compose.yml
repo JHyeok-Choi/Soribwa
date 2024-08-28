@@ -1,6 +1,7 @@
 services:  # services 아래 서비스들을 명시
   nodejs:  # nodejs라는 이름의 서비스를 정의
-    build: 
+    image: nodejsj:1.0
+    build:
       dockerfile: nodejs.Dockerfile # 빌드 옵션  # nodejs.Dockerfile 을 사용하여 build.
     ports:
        - 8400:8400  # <로컬에서 열 포트이름>:<docker container에서 열어 놓은 port 이름>
@@ -8,6 +9,7 @@ services:  # services 아래 서비스들을 명시
     restart: unless-stopped
   
   python:
+    image: pythonj:1.0
     build: 
       dockerfile: python.Dockerfile
     ports:
@@ -16,6 +18,7 @@ services:  # services 아래 서비스들을 명시
     restart: unless-stopped
   
   react:
+    image: reactj:1.0
     build:
       dockerfile: react.Dockerfile
     ports:

@@ -11,7 +11,7 @@ WORKDIR /docker
 
 # Dockerfile을 실행시키는 위치에 있는 python이란 파일 혹은 폴더를
 # docker container 안의 /docker/python 이란 위치에 복사합니다.
-COPY ../python /docker/python
+COPY python /docker/python
 
 # pip3 install -r 을 이용하여 requirements.txt 파일들에 있는 라이브러리들을 설치합니다.
 RUN pip3 install -r /docker/python/requirements.txt
@@ -20,7 +20,7 @@ RUN pip3 install -r /docker/python/requirements.txt
 WORKDIR /docker/python
 
 # docker container에게 5000번 포트를 쓸것이라고 언급해줍니다.
-EXPOSE 5000
+EXPOSE 5400
 
 # 이제 위의 일련의 과정들로 build된 image 에서 하단의 명령어를 실행합니다.
-CMD python3 -m uvicorn app:app --host 0.0.0.0 --port 5000 --reload
+CMD python3 -m uvicorn app:app --host 0.0.0.0 --port 5400 --reload
