@@ -1,0 +1,120 @@
+@import url('https://static.toss.im/tps/main.css');
+@import url('https://static.toss.im/tps/others.css');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Toss Product Sans';
+  background-color: #f0f0f0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  position: relative;
+}
+
+.sidebar {
+  position: fixed;
+  font-weight: bold;
+  top: 0;
+  left: 0;
+  width: 280px;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+.sidebar.open {
+  transform: translateX(0);
+}
+
+.sidebar-header {
+  padding: 20px;
+  background-color: #0532A9;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+}
+
+.back-button-white {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.back-button-white img {
+  width: 20px;
+  height: 20px;
+}
+
+.sidebar nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar nav h5 {
+  margin: 20px 0 10px 20px;
+  font-size: 0.9em;
+  color: #0532A9;
+}
+
+.sidebar nav li {
+  margin: 10px 0;
+}
+
+.sidebar nav a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000000;
+  padding: 10px 20px;
+}
+
+.sidebar nav a img {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+nav ul li.spacer {
+  margin-top: 40px;
+}
+
+.container.blur main {
+  filter: blur(5px);
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.user-info img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    gap: 20px;
+    padding: 20px;
+  }
+}

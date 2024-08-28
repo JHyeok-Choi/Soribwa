@@ -1,0 +1,31 @@
+@import url('https://static.toss.im/tps/main.css');
+@import url('https://static.toss.im/tps/others.css');
+
+.header {
+  background-color: #FFFFFF;
+  font-family: 'Toss Product Sans';
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.menu-logo {
+  display: flex;
+  align-items: center;
+}
+
+.menu-button,
+.back-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5em;
+}
+
+.soribwa-logo {
+  width: 55px;
+  height: auto;
+  margin-left: 10px; /* 로고와 버튼 사이의 간격 조절 */
+}
